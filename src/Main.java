@@ -7,9 +7,9 @@ public class Main {
         int c = 3;
         int d = 4;
 
-        sum1 = a + b;
+        int sum1 = a + b;
 
-        sum2 = c + d;
+        int sum2 = c + d;
 
         System.out.println("First comparison:" + (sum1 > sum2));
 
@@ -19,8 +19,7 @@ public class Main {
 
         System.out.println("Second comparison:" + (sum1 > sum2));
 
-        bolean isEven = (sum1 % 2 == 0) || (sum2 % 2 == 0);
+        boolean isEven = (sum1 % 2 == 0) || (sum2 % 2 == 0);
         System.out.println("At least one sum is even:" + (isEven));
         }
     }
-}
