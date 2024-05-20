@@ -10,15 +10,15 @@ public class Main {
     int sum1 = a + b;
     int sum2 = c + d;
 
-    System.out.println("Перше порівняння: " + (sum1 > sum2));
+    System.out.println("First comparison: " + (sum1 > sum2));
 
     sum1 += 1;
 
     sum2 -= 2;
 
-    System.out.println("Друге порівняння: " + (sum1 > sum2));
+    System.out.println("Second comparison: " + (sum1 > sum2));
 
         boolean isSumEven = (sum1 % 2 == 0) || (sum2 % 2 == 0);
-        System.out.println("Чи є хоча б одна сума кратною 2: " + isSumEven);
+        System.out.println("Is at least one sun even: " + isSumEven);
     }
     }
